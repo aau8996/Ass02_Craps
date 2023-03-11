@@ -8,7 +8,7 @@ public class Main
         String yNResponse = "";
         boolean done = false;
 
-        // do while loop for prompt for player to play again; recycled from rock, paper, scissors program
+        // do while loop for prompt for player to play again;
         do
         {
             Random rnd = new Random();
@@ -29,7 +29,7 @@ public class Main
                 System.out.println("Invalid Response;");
             }
             else if (yNResponse.equalsIgnoreCase("Y"))
-            // as soon as the player confirms that they want to play, the program automatically roll two initial dice
+            // as soon as the player confirms that they want to play again, the program automatically roll two initial dice
             {
                 System.out.println("First Die: " + die1);
                 System.out.println("Second Die: " + die2);
